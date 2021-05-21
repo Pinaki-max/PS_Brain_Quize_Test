@@ -13,4 +13,15 @@ class Question extends Model {
     protected $fillable = [
         'subject_id', 'question', 'answer_id'
     ];
+
+    public function users(){
+        return $this->belongsToMany(User::class)
+        ->withPivot('answer_id')
+        ->withTimestamps();
+    }
+
+    public function options(){
+        return $this->hasMany(Option::class);
+    }
+
 }
