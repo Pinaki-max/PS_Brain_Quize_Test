@@ -19,13 +19,13 @@ class UserSeeder extends Seeder{
         $pass = Hash::make('testpass');
         $admins = [
             [
-                'name' => '01',
+                'name' => 'admin01',
                 'email' => 'admin01@test.com',
                 'password' => $pass,
             ],
             [
                 'name' => 'Naamendu Manna',
-                'email' => 'nabendu.admin@text.com',
+                'email' => 'nabendu.admin@test.com',
                 'password' => $pass,
             ],
             [
@@ -43,7 +43,7 @@ class UserSeeder extends Seeder{
             ],
             [
                 'name' => 'Naamendu Manna',
-                'email' => 'nabendu.user@text.com',
+                'email' => 'nabendu.user@test.com',
                 'password' => $pass,
             ],
             [
