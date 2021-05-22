@@ -30,6 +30,7 @@ class OptionSeeder extends Seeder{
                 'question_id' => 1,
                 'option' => "C interpreter",
             ],
+
             [
                 'question_id' => 2,
                 'option' => "The value of (a + 1)",
@@ -45,6 +46,57 @@ class OptionSeeder extends Seeder{
             [
                 'question_id' => 2,
                 'option' => "Garbage",
+            ],
+
+            [
+                'question_id' => 3,
+                'option' => "Zim Den",
+            ],
+            [
+                'question_id' => 3,
+                'option' => "Guido van Rossum",
+            ],
+            [
+                'question_id' => 3,
+                'option' => "Niene Stom",
+            ],
+            [
+                'question_id' => 3,
+                'option' => "Wick van Rossum",
+            ],
+
+            [
+                'question_id' => 4,
+                'option' => "1995",
+            ],
+            [
+                'question_id' => 4,
+                'option' => "1972",
+            ],
+            [
+                'question_id' => 4,
+                'option' => "1981",
+            ],
+            [
+                'question_id' => 4,
+                'option' => "1989",
+            ],
+
+            [
+                'question_id' => 5,
+                'option' => "English",
+            ],
+            [
+                'question_id' => 5,
+                'option' => "PHP",
+            ],
+            [
+                'question_id' => 5,
+                'option' => "C",
+            ],
+            [
+                'question_id' => 5,
+                'option' => "All of the above",
             ],
         ];
 

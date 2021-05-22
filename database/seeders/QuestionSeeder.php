@@ -24,12 +24,28 @@ class QuestionSeeder extends Seeder{
                 'question' => 'What is the output of this statement "printf("%d", (a++))"?',
                 'answer_id' => 6,
             ],
+
+            [
+                'subject_id' => 2,
+                'question' => 'Who developed the Python language?',
+                'answer_id' => 10,
+            ],
+            [
+                'subject_id' => 2,
+                'question' => 'In which year was the Python language developed?',
+                'answer_id' => 14,
+            ],
+            [
+                'subject_id' => 2,
+                'question' => 'In which language is Python written?',
+                'answer_id' => 19,
+            ],
         ];
 
         foreach ($questions as $question) {
-            if (Question::where(['code' => $question['code']])->count() == 0) {
+            // if (Question::where(['code' => $question['code']])->count() == 0) {
                 Question::create($question);
-            }
+            // }
         }
     }
 }
