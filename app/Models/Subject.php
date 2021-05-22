@@ -11,7 +11,7 @@ class Subject extends Model{
     use SoftDeletes;
 
     protected $fillable = [
-        'name'
+        'code', 'full_name'
     ];
 
     public function users(){
