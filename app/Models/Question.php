@@ -24,4 +24,8 @@ class Question extends Model {
         return $this->hasMany(Option::class);
     }
 
+    public function subject(){
+        return $this->belongsTo(Subject::class);
+    }
+
 }

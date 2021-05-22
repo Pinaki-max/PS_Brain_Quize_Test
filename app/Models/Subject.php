@@ -19,4 +19,8 @@ class Subject extends Model{
     	->withPivot('level')
     	->withTimestamps();
     }
+
+    public function questions(){
+        return $this->hasMany(Question::class);
+    }
 }
