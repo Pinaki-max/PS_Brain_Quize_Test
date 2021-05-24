@@ -14,14 +14,42 @@
         width: 100%;
         height: 100%;
         height: 300px;
+      }      
+      hr{
+       opacity: .2px; 
       }
+      a{
+        text-decoration: none;
+      }
+
+     /* This Is colum section */
+      * {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  margin-top: 10px;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
       </style>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar scroll</a>
+          <a class="navbar-brand" href="#"><img src="ps_logo.jpg" width="70" height="45"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
