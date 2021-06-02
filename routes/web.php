@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 Route::view('/index','index');
 Route::view('/About','About');
+Route::view('/admin','adminpanel');
