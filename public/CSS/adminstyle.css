@@ -28,7 +28,12 @@
   div.content {
     margin-left: 200px;
     padding: 1px 16px;
-    height: 1000px;
+    background-color:black;
+    height: 400px;
+  }
+  h3{
+    margin-top:-300px;
+    color: white;
   }
   
   @media screen and (max-width: 700px) {
