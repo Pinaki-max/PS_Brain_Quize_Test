@@ -16,6 +16,7 @@
         <a href="adminpanelabout"><i class="fas fa-eject"></i>About</a>
         <a href="adminpanelaccount"><i class="fas fa-user-circle"></i>Account</a>
         <a href="adminpanelsetting"><i class="fas fa-cog"></i>Setting</a>
+        <a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a>
       </div>
       <div class="content">
         
