@@ -25,7 +25,7 @@
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    {{-- <style>
+    <style>
         /* Make the image fully responsive */
         .carousel-inner img {
             width: 100%;
@@ -63,7 +63,7 @@
             clear: both;
         }
 
-    </style> --}}
+    </style>
 </head>
 
 <body>
