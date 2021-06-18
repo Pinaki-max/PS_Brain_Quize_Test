@@ -1,2 +1,5 @@
-# *
-# !.gitignore
+*
+!logo
+!logo/*
+# !*n.txt
+!.gitignore
