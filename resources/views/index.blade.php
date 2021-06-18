@@ -46,8 +46,8 @@
   </div>
 
 
-  <div class="column" style="background-color:rgb(38, 8, 204);">
-    <h2>Column 1</h2>
+  <div class="column" style="background-color:rgb(183, 183, 185);">
+    <h2><i class="fas fa-home"></i>Column 1</h2>
     <p>Some text..</p>
   </div>
   <div class="column" style="background-color:rgb(38, 8, 204);">

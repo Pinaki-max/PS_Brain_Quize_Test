@@ -18,3 +18,10 @@ Route::get('/', function () {
 });
 Route::view('/index','index');
 Route::view('/About','About');
+Route::view('/admin','admin');
+Route::view('/adminpanelhome','adminpanelhome');
+Route::view('/adminpanelnews','adminpanelnews');
+Route::view('/adminpanelabout','adminpanelabout');
+Route::view('/adminpanelaccount','adminpanelaccount');
+Route::view('/adminpanelcontact','adminpanelcontact');
+Route::view('/adminpanelsetting',' adminpanelsetting');
