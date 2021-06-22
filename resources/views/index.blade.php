@@ -9,7 +9,6 @@
             </div>
         </div>
 
-
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -21,20 +20,24 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="622ddb63987528970c3b7cb65bfc6c43.jpg" class="d-block w-100" alt="...">
+                    <img src="..." class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="622ddb63987528970c3b7cb65bfc6c43.jpg" class="d-block w-100" alt="...">
+                    <img src="..." class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="622ddb63987528970c3b7cb65bfc6c43.jpg" class="d-block w-100" alt="...">
+                    <img src="..." class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
             </div>
@@ -48,44 +51,70 @@
             </button>
         </div>
 
+        <div class="container mt-5">
+            <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
+                <div class="col">
+                    <div class="bg-light border border-4 rounded text-center shadow-sm p-2">
+                        <h2><i class="fas fa-home"></i>Column 1</h2>
+                        <p>Some text..</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-light border border-4 rounded text-center shadow-sm p-2">
+                        <h2><i class="fas fa-home"></i>Column 1</h2>
+                        <p>Some text..</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-light border border-4- rounded text-center shadow-sm p-2">
+                        <h2><i class="fas fa-home"></i>Column 1</h2>
+                        <p>Some text..</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-light border- border-4- rounded text-center shadow-sm p-2">
+                        <h2><i class="fas fa-home"></i>Column 1</h2>
+                        <p>Some text..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="column" style="background-color:rgb(183, 183, 185);">
-            <h2><i class="fas fa-home"></i>Column 1</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="column" style="background-color:rgb(38, 8, 204);">
-            <h2>Column 2</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="column" style="background-color:rgb(38, 8, 204);">
-            <h2>Column 3</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="column" style="background-color:rgb(38, 8, 204);">
-            <h2>Column 4</h2>
-            <p>Some text..</p>
-        </div>
-
-        <div class="row g-3">
-            <div class="col-md-3 col-6 bg-secondary border ">
-                <h2><i class="fas fa-home"></i>Column 1</h2>
-                <p>Some text..</p>
+        <div class="container mt-5">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">Row column</div>
+              </div>
             </div>
-            <div class="col-md-3 col-6 bg-secondary border ">
-                <h2><i class="fas fa-home"></i>Column 1</h2>
-                <p>Some text..</p>
-            </div>
-            <div class="col-md-6 bg-secondary border ">
-                <h2><i class="fas fa-home"></i>Column 1</h2>
-                <p>Some text..</p>
-            </div>
-            <div class="col-md-3 bg-secondary border ">
-                <h2><i class="fas fa-home"></i>Column 1</h2>
-                <p>Some text..</p>
-            </div>
-        </div>
+          </div>
 
     </div>
-
-
+    
 @endsection
